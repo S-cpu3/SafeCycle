@@ -13,3 +13,16 @@
     ```bash
     npx expo start
     ```
+
+### Backend
+1) Ensure you have set up your vitrual python environment `python -m venv .venv`
+2) Activate your virtual environment `.venv/bin/activate` or `source .venv/bin/activate` for bash users
+3) Update and/or install the required packages via `pip install -r requirements.txt`
+4) To test and develop the backend application:
+    ```bash
+    fastapi dev main.py
+    ```
+    If you need access beyond your local network enter:
+    ```bash
+    uvicorn main:app --host 0.0.0.0
+    ```
