@@ -1,5 +1,5 @@
 # SafeCycle
-SafeCycle is a privacy focused mobile app designed for tracking menstrual cycles and reproductive storing health information for women. All data is processed locally on the app and can be protected by biometrics and App PIN. Nobody has access to your health data not even us. Privacy is a standard not a suggestion. 
+SafeCycle is a privacy focused mobile app designed for tracking menstrual cycles and storing reproductive health information for women. All data is processed locally on the app and can be protected by biometrics and App PIN. Nobody has access to your health data not even us. Privacy is a standard not a suggestion. 
 
 ## Technologies:
 - Frontend: [React Native + Expo](https://react.dev/#:~:text=React%20Native%20and%20Expo%20let%20you%20build%20apps%20in%20React%20for%20Android%2C%20iOS%2C%20and%20more.)
