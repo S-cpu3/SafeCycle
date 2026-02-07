@@ -6,7 +6,7 @@ SafeCycle is a privacy focused mobile app designed for tracking menstrual cycles
 
     - Install Enviornment: [Expo setup guide](https://docs.expo.dev/get-started/set-up-your-environment/?platform=ios&device=physical&mode=expo-go)
 
-## How to:
+## How to run application:
 
 ### Frontend:
 1) Make sure you're under the correct directory `frontend`
@@ -27,3 +27,8 @@ SafeCycle is a privacy focused mobile app designed for tracking menstrual cycles
     ```bash
     uvicorn main:app --host 0.0.0.0
     ```
+
+### Fontend Pages:
+- Home Page
+- History (Overview user data)
+- Profile (User, Pass, Scannable QR)
