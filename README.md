@@ -1,4 +1,5 @@
 # SafeCycle
+SafeCycle is a privacy focused mobile app designed for tracking menstrual cycles and storing reproductive health information for women. All data is processed locally on the app and can be protected by biometrics and App PIN. Nobody has access to your health data not even us. Privacy is a standard not a suggestion. 
 
 ## Technologies:
 - Frontend: [React Native + Expo](https://react.dev/#:~:text=React%20Native%20and%20Expo%20let%20you%20build%20apps%20in%20React%20for%20Android%2C%20iOS%2C%20and%20more.)
@@ -12,4 +13,17 @@
 2) Start application: 
     ```bash
     npx expo start
+    ```
+
+### Backend
+1) Ensure you have set up your vitrual python environment `python -m venv .venv`
+2) Activate your virtual environment `.venv/bin/activate` or `source .venv/bin/activate` for bash users
+3) Update and/or install the required packages via `pip install -r requirements.txt`
+4) To test and develop the backend application:
+    ```bash
+    fastapi dev main.py
+    ```
+    If you need access beyond your local network enter:
+    ```bash
+    uvicorn main:app --host 0.0.0.0
     ```
