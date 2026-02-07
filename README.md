@@ -28,7 +28,7 @@ SafeCycle is a privacy focused mobile app designed for tracking menstrual cycles
     uvicorn main:app --host 0.0.0.0
     ```
 
-### Fontend Pages:
+### Frontend Pages:
 - Home Page
 - History (Overview user data)
 - Profile (User, Pass, Scannable QR)
