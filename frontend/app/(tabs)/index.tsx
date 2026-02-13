@@ -1,6 +1,7 @@
 // Imports: React/React Native, Link (Navigate between screens)
 import { Text, View, StyleSheet } from "react-native";
 import { Link } from "expo-router";
+import CycleTracker from "@/components/CycleTracker";
 
 export const metadata = {
   title: "Home",
@@ -16,8 +17,7 @@ export default function Index() {
         backgroundColor: "#3a6486ff",
       }}
     >
-      <Text style={style.text}>Hello World!</Text>
-      <Link href="/history" style={style.button}>Go to History Screen</Link>
+      <CycleTracker />
     </View>
   );
 }
