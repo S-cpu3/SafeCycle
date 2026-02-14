@@ -1,5 +1,6 @@
 // Imports: React/React Native, Link (Navigate between screens)
-import { Text, View, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
+import { Text } from "react-native-paper";
 import { Link } from "expo-router";
 import CycleTracker from "@/components/CycleTracker";
 
@@ -23,23 +24,4 @@ export default function Index() {
 }
 
 const style = StyleSheet.create({
-  
-  container: {
-    flex: 1,
-    backgroundColor: "#3a6486ff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-
-  text: {
-    color: "white",
-    fontSize: 20,
-  },
-
-  button: {
-    marginTop: 20,
-    textDecorationLine: "underline",
-    color: "white",
-  }
-
 })
