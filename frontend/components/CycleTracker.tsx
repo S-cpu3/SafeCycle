@@ -4,6 +4,7 @@ const DIAMETER = 300;
 const RADIUS = DIAMETER / 2;
 const SIZE = 30;
 const DAYS = Array.from({ length: 30 }, (_, i) => i + 1);
+const DISTANCE_FROM_EDGE = 15;
 
 export default function CycleTracker() {
   return (
@@ -11,8 +12,8 @@ export default function CycleTracker() {
       <View style={styles.circle}>
         {DAYS.map((dom, index) => {
           const angle = (2 * Math.PI * index) / DAYS.length;
-          const x = RADIUS * Math.cos(angle) + RADIUS - SIZE / 2;
-          const y = RADIUS * Math.sin(angle) + RADIUS - SIZE / 2;
+          const x = (RADIUS - DISTANCE_FROM_EDGE) * Math.cos(angle) + RADIUS - SIZE / 2;
+          const y = (RADIUS - DISTANCE_FROM_EDGE) * Math.sin(angle) + RADIUS - SIZE / 2;
           return (
             <View
               key={index}
