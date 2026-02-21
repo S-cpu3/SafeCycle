@@ -9,9 +9,9 @@ SafeCycle is a privacy focused mobile app designed for tracking menstrual cycles
 
 ### Frontend:
 1) Make sure you're under the correct directory `frontend`
-2) Install expo if not already:
+2) Install necessary packages:
     ```bash
-    npm install expo
+    npm install
     ```
 3) Start application: 
     ```bash
